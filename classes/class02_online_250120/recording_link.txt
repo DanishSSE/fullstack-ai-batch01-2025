@@ -1,0 +1,19 @@
+Class 02 Recording - January 20, 2025 (Online)
+HTML Forms & Semantic Tags
+
+Recording Link: [To be added after class]
+Password: [If applicable]
+
+Duration: Approximately 2 hours
+Format: Zoom Recording
+Platform: Zoom
+
+Topics Covered:
+- HTML Forms and input types
+- Form validation attributes
+- Semantic HTML elements
+- Accessibility best practices
+- Live coding: Contact form and blog structure
+
+Note: Recording will be available within 24 hours of class completion.
+All registered students will receive an email notification when available.

@@ -1,0 +1,10 @@
+# Todo App Source Files
+
+Students will place their React todo app files here after running:
+npx create-react-app .
+
+The src/ folder will contain:
+- Component files
+- Style files
+- Utility functions
+- Main App.js

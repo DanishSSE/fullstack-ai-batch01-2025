@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics - Class 01</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to HTML Basics</h1>
+        <p>Learning the fundamentals of web development</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#elements">HTML Elements</a></li>
+            <li><a href="#lists">Lists</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>
+                This is a demonstration page showing various HTML elements
+                and their proper usage. HTML (HyperText Markup Language) is
+                the standard markup language for creating web pages.
+            </p>
+            <p>
+                HTML elements are the building blocks of web pages. They
+                tell the browser how to display content.
+            </p>
+        </section>
+
+        <!-- HTML Elements Section -->
+        <section id="elements">
+            <h2>Common HTML Elements</h2>
+
+            <article>
+                <h3>Text Formatting</h3>
+                <p>This is a <strong>bold</strong> word.</p>
+                <p>This is an <em>italic</em> word.</p>
+                <p>This is a <mark>highlighted</mark> word.</p>
+                <p>This is <small>small</small> text.</p>
+                <p>This is <del>deleted</del> text.</p>
+                <p>This is <ins>inserted</ins> text.</p>
+            </article>
+
+            <article>
+                <h3>Headings</h3>
+                <h1>Heading 1 (Main Title)</h1>
+                <h2>Heading 2 (Section Title)</h2>
+                <h3>Heading 3 (Subsection)</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+            </article>
+
+            <article>
+                <h3>Images</h3>
+                <img src="https://via.placeholder.com/300x200"
+                     alt="Placeholder image"
+                     width="300"
+                     height="200">
+                <p><em>Note: Always include alt text for accessibility!</em></p>
+            </article>
+        </section>
+
+        <!-- Lists Section -->
+        <section id="lists">
+            <h2>Different Types of Lists</h2>
+
+            <article>
+                <h3>Unordered List (Bullets)</h3>
+                <ul>
+                    <li>HTML - Structure</li>
+                    <li>CSS - Styling</li>
+                    <li>JavaScript - Interactivity</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Ordered List (Numbers)</h3>
+                <ol>
+                    <li>Write HTML structure</li>
+                    <li>Add CSS styling</li>
+                    <li>Implement JavaScript functionality</li>
+                </ol>
+            </article>
+
+            <article>
+                <h3>Nested Lists</h3>
+                <ul>
+                    <li>Frontend Technologies
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </li>
+                    <li>Backend Technologies
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Links Section -->
+        <section id="links">
+            <h2>Working with Links</h2>
+
+            <article>
+                <h3>External Links</h3>
+                <p>
+                    Visit <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>
+                    for comprehensive web development documentation.
+                </p>
+                <p>
+                    Learn HTML at <a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Internal Links</h3>
+                <p>
+                    Jump back to the <a href="#about">About section</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Email Links</h3>
+                <p>
+                    Contact us: <a href="mailto:info@example.com">info@example.com</a>
+                </p>
+            </article>
+        </section>
+
+        <!-- Table Example -->
+        <section>
+            <h2>HTML Table Example</h2>
+            <table border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Type</th>
+                        <th>Purpose</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Markup Language</td>
+                        <td>Structure</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Stylesheet</td>
+                        <td>Presentation</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Programming Language</td>
+                        <td>Behavior</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Semantic HTML Example -->
+        <section>
+            <h2>Why Semantic HTML Matters</h2>
+            <article>
+                <h3>Benefits of Semantic HTML</h3>
+                <ul>
+                    <li><strong>Accessibility:</strong> Screen readers can better understand content</li>
+                    <li><strong>SEO:</strong> Search engines can better index your content</li>
+                    <li><strong>Maintainability:</strong> Code is easier to read and maintain</li>
+                    <li><strong>Consistency:</strong> Standard elements across projects</li>
+                </ul>
+            </article>
+
+            <aside>
+                <h4>Did You Know?</h4>
+                <p>
+                    Using semantic HTML can improve your website's search engine
+                    ranking and make it more accessible to users with disabilities.
+                </p>
+            </aside>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Full Stack + AI Web Engineer Course</p>
+        <p>
+            <a href="#top">Back to Top</a> |
+            <a href="../">Course Home</a>
+        </p>
+    </footer>
+</body>
+</html>

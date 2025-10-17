@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive guide to semantic HTML and its importance in web development">
+    <meta name="keywords" content="HTML, semantic HTML, web development, accessibility">
+    <meta name="author" content="Course Instructor">
+    <title>Understanding Semantic HTML - Tech Blog</title>
+</head>
+<body>
+    <!-- Page Header -->
+    <header>
+        <h1>Tech Development Blog</h1>
+        <p>Insights and tutorials for modern web developers</p>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Blog Post Article -->
+        <article>
+            <!-- Article Header -->
+            <header>
+                <h1>Understanding Semantic HTML: A Complete Guide</h1>
+                <p>
+                    <strong>By:</strong> <a href="#author">Jane Developer</a> |
+                    <time datetime="2025-01-20">January 20, 2025</time>
+                </p>
+                <p><em>Reading time: 8 minutes</em></p>
+            </header>
+
+            <!-- Table of Contents -->
+            <nav>
+                <h2>Table of Contents</h2>
+                <ol>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#what-is-semantic">What is Semantic HTML?</a></li>
+                    <li><a href="#benefits">Benefits of Semantic HTML</a></li>
+                    <li><a href="#examples">Common Semantic Elements</a></li>
+                    <li><a href="#best-practices">Best Practices</a></li>
+                    <li><a href="#conclusion">Conclusion</a></li>
+                </ol>
+            </nav>
+
+            <!-- Introduction Section -->
+            <section id="introduction">
+                <h2>Introduction</h2>
+                <p>
+                    When building websites, the way we structure our HTML matters just as much
+                    as the visual design. Semantic HTML is the practice of using HTML elements
+                    that convey meaning about the content they contain, rather than just
+                    describing how they should look.
+                </p>
+                <p>
+                    In this comprehensive guide, we'll explore what semantic HTML is, why it
+                    matters, and how to implement it effectively in your web projects.
+                </p>
+
+                <figure>
+                    <img
+                        src="https://via.placeholder.com/800x400/667eea/ffffff?text=Semantic+HTML+Structure"
+                        alt="Diagram showing semantic HTML structure with header, nav, main, article, aside, and footer"
+                        width="800"
+                        height="400">
+                    <figcaption>
+                        Figure 1: Basic semantic HTML page structure
+                    </figcaption>
+                </figure>
+            </section>
+
+            <!-- What is Semantic HTML Section -->
+            <section id="what-is-semantic">
+                <h2>What is Semantic HTML?</h2>
+                <p>
+                    Semantic HTML refers to HTML that introduces meaning to the web page rather
+                    than just presentation. For example, a <code>&lt;p&gt;</code> tag indicates
+                    that the enclosed text is a paragraph. This is both semantic and presentational
+                    because people know what paragraphs are and browsers know how to display them.
+                </p>
+
+                <blockquote>
+                    <p>
+                        "Semantic HTML is the use of HTML markup to reinforce the semantics, or
+                        meaning, of the information in web pages rather than merely to define its
+                        presentation or look."
+                    </p>
+                    <footer>— <cite>W3C Web Accessibility Initiative</cite></footer>
+                </blockquote>
+
+                <p>
+                    On the flip side of this equation, elements like <code>&lt;div&gt;</code>
+                    and <code>&lt;span&gt;</code> are non-semantic. They tell us nothing about
+                    their content.
+                </p>
+            </section>
+
+            <!-- Benefits Section -->
+            <section id="benefits">
+                <h2>Benefits of Semantic HTML</h2>
+                <p>
+                    Using semantic HTML elements provides numerous advantages for both developers
+                    and users:
+                </p>
+
+                <h3>1. Improved Accessibility</h3>
+                <p>
+                    Screen readers and assistive technologies rely on semantic HTML to help users
+                    navigate content. When you use proper semantic elements, you're making your
+                    website accessible to everyone.
+                </p>
+
+                <h3>2. Better SEO</h3>
+                <p>
+                    Search engines use semantic HTML to understand the structure and importance
+                    of different parts of your content. Using proper headings, articles, and
+                    sections helps search engines index your content more effectively.
+                </p>
+
+                <h3>3. Easier Maintenance</h3>
+                <p>
+                    Semantic HTML makes your code more readable and maintainable. When you or
+                    another developer looks at the code, it's immediately clear what each section
+                    represents.
+                </p>
+
+                <h3>4. Consistent Styling</h3>
+                <p>
+                    Semantic elements often come with default browser styling that's consistent
+                    across different browsers, providing a solid foundation for your CSS.
+                </p>
+            </section>
+
+            <!-- Examples Section -->
+            <section id="examples">
+                <h2>Common Semantic Elements</h2>
+                <p>
+                    Let's explore some of the most commonly used semantic HTML5 elements:
+                </p>
+
+                <h3>Structural Elements</h3>
+                <ul>
+                    <li><strong>&lt;header&gt;</strong> - Introductory content or navigation</li>
+                    <li><strong>&lt;nav&gt;</strong> - Navigation links</li>
+                    <li><strong>&lt;main&gt;</strong> - Main content of the document</li>
+                    <li><strong>&lt;article&gt;</strong> - Self-contained composition</li>
+                    <li><strong>&lt;section&gt;</strong> - Standalone section of content</li>
+                    <li><strong>&lt;aside&gt;</strong> - Content tangentially related to main content</li>
+                    <li><strong>&lt;footer&gt;</strong> - Footer for a section or page</li>
+                </ul>
+
+                <h3>Text Content Elements</h3>
+                <ul>
+                    <li><strong>&lt;h1&gt; to &lt;h6&gt;</strong> - Heading levels</li>
+                    <li><strong>&lt;p&gt;</strong> - Paragraph</li>
+                    <li><strong>&lt;blockquote&gt;</strong> - Extended quotation</li>
+                    <li><strong>&lt;figure&gt; and &lt;figcaption&gt;</strong> - Self-contained content with caption</li>
+                    <li><strong>&lt;time&gt;</strong> - Specific time or date</li>
+                    <li><strong>&lt;mark&gt;</strong> - Highlighted text</li>
+                </ul>
+
+                <figure>
+                    <img
+                        src="https://via.placeholder.com/600x400/764ba2/ffffff?text=Semantic+Elements"
+                        alt="Chart showing different semantic HTML elements and their purposes"
+                        width="600"
+                        height="400">
+                    <figcaption>
+                        Figure 2: Overview of semantic HTML5 elements
+                    </figcaption>
+                </figure>
+            </section>
+
+            <!-- Best Practices Section -->
+            <section id="best-practices">
+                <h2>Best Practices</h2>
+                <p>
+                    To get the most out of semantic HTML, follow these best practices:
+                </p>
+
+                <ol>
+                    <li>
+                        <strong>Use one &lt;h1&gt; per page</strong> - The h1 should represent
+                        the main topic of the page
+                    </li>
+                    <li>
+                        <strong>Maintain proper heading hierarchy</strong> - Don't skip heading
+                        levels (h1 → h2 → h3, not h1 → h3)
+                    </li>
+                    <li>
+                        <strong>Use &lt;main&gt; once per page</strong> - There should only be
+                        one main content area
+                    </li>
+                    <li>
+                        <strong>Use &lt;article&gt; for standalone content</strong> - Content
+                        that makes sense on its own
+                    </li>
+                    <li>
+                        <strong>Use &lt;section&gt; with headings</strong> - Sections should
+                        have a heading element
+                    </li>
+                    <li>
+                        <strong>Prefer semantic elements over &lt;div&gt;</strong> - Only use
+                        div for styling purposes
+                    </li>
+                    <li>
+                        <strong>Add ARIA labels when needed</strong> - Enhance accessibility
+                        where HTML alone isn't sufficient
+                    </li>
+                </ol>
+
+                <aside>
+                    <h3>💡 Pro Tip</h3>
+                    <p>
+                        Use browser developer tools to inspect the document outline. A well-structured
+                        semantic HTML document will have a clear, logical outline that makes sense
+                        when you read the headings alone.
+                    </p>
+                </aside>
+            </section>
+
+            <!-- Conclusion Section -->
+            <section id="conclusion">
+                <h2>Conclusion</h2>
+                <p>
+                    Semantic HTML is more than just a best practice—it's essential for creating
+                    accessible, maintainable, and SEO-friendly websites. By choosing the right
+                    HTML elements for your content, you're not just writing code; you're creating
+                    a meaningful structure that benefits everyone who interacts with your website.
+                </p>
+                <p>
+                    Start incorporating semantic HTML into your projects today. Your users,
+                    fellow developers, and search engines will thank you!
+                </p>
+            </section>
+
+            <!-- Article Footer -->
+            <footer>
+                <h3>About the Author</h3>
+                <p id="author">
+                    <strong>Jane Developer</strong> is a web development instructor with over 10
+                    years of experience. She specializes in teaching modern web technologies and
+                    best practices.
+                </p>
+
+                <section>
+                    <h3>Tags</h3>
+                    <p>
+                        <a href="#html">HTML</a>,
+                        <a href="#semantic">Semantic HTML</a>,
+                        <a href="#accessibility">Accessibility</a>,
+                        <a href="#webdev">Web Development</a>,
+                        <a href="#best-practices">Best Practices</a>
+                    </p>
+                </section>
+            </footer>
+        </article>
+
+        <!-- Sidebar -->
+        <aside>
+            <section>
+                <h2>About This Blog</h2>
+                <p>
+                    This blog provides practical insights and tutorials for web developers
+                    of all skill levels. We cover everything from HTML basics to advanced
+                    JavaScript frameworks.
+                </p>
+            </section>
+
+            <section>
+                <h2>Related Articles</h2>
+                <ul>
+                    <li>
+                        <article>
+                            <h3><a href="#">CSS Grid vs Flexbox: When to Use Which</a></h3>
+                            <time datetime="2025-01-15">January 15, 2025</time>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h3><a href="#">JavaScript Async/Await Explained</a></h3>
+                            <time datetime="2025-01-10">January 10, 2025</time>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h3><a href="#">Web Accessibility: A Developer's Guide</a></h3>
+                            <time datetime="2025-01-05">January 5, 2025</time>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Newsletter</h2>
+                <p>Get weekly web development tips delivered to your inbox!</p>
+                <form action="/subscribe" method="POST">
+                    <label for="email-subscribe">Email:</label>
+                    <input
+                        type="email"
+                        id="email-subscribe"
+                        name="email"
+                        required
+                        placeholder="your@email.com">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+        </aside>
+    </main>
+
+    <!-- Page Footer -->
+    <footer>
+        <p>&copy; 2025 Tech Development Blog. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>
+            <small>
+                Created for Full Stack + AI Web Engineer Course - Class 02 Example
+            </small>
+        </p>
+    </footer>
+</body>
+</html>

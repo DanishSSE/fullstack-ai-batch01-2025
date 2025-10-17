@@ -1,0 +1,8 @@
+# Capstone Project Source Files
+
+Students will create their capstone project structure here.
+
+Recommended structure:
+client/ - Frontend React application
+server/ - Backend Node.js/Express application
+docs/ - Project documentation
