@@ -38,7 +38,7 @@ Everyone should **work on and practice** the following tasks to strengthen your 
 
 ### 💻 5. Explore Bootstrap CSS Library
 - Start exploring the **Bootstrap CSS Framework**:  
-  👉 [Bootstrap Official Docs](https://example.com/bootstrap)  
+  👉 [Bootstrap Official Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)  
 - Learn how it simplifies responsive design and helps you create modern, mobile-friendly layouts.
 
 ---
